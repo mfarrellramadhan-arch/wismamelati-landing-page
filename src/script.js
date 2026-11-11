@@ -1,5 +1,4 @@
 /* =================================================================
-   TERATAK HIJAU KOS & RESIDENCE — SCRIPT UTAMA (Vanilla JS)
    Daftar isi:
      1. Dark Mode Toggle (dengan localStorage)
      2. Navbar: efek scroll + menu mobile
@@ -95,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   
 
-
   /* ---------------------------------------------------------------
      3. DATA TIPE KAMAR — sumber data tunggal untuk render kartu
      Cukup ubah angka "sisa" di sini untuk memperbarui status
@@ -103,22 +101,22 @@ document.addEventListener('DOMContentLoaded', () => {
   --------------------------------------------------------------- */
   const roomData = [
     {
-      nama: 'Kamar Dalam',
-      deskripsi: 'Kamar isian dengan posisi didalam bangunan dan tidak langsung menghadap teras.',
-      harga: 800000,
+      nama: 'Kamar Kosongan',
+      deskripsi: 'Kamar kosongan dengan harga paling terjangkau, kamu bebas customize isi kamarmu !',
+      harga: 300000,
       satuan: 'bulan',
       sisa: 3, // jumlah kamar tersisa, gunakan 0 untuk status "Penuh"
-      fasilitas: ['Kasur Single', 'Lemari', 'Wi-Fi', 'Meja'],
+      fasilitas: ['Air', 'Wi-Fi', 'Listrik', "Kamar mandi luar", 'Dapur sharing'],
       gambar: 'https://picsum.photos/seed/teratakhijau-room-standar/500/380',
     },
     {
-      nama: 'Kamar Luar',
+      nama: 'Kamar Isian',
       deskripsi: 'Kamar isian dengan posisi menghadap ke teras luar.',
-      harga: 1200000,
+      harga: 550000,
       satuan: 'bulan',
       sisa: 1,
-      fasilitas: ['Kasur single', 'Meja', 'Wi-Fi', 'lemari'],
-      gambar: 'https://picsum.photos/seed/teratakhijau-room-deluxe/500/380',
+      fasilitas: ['Kasur single', 'Meja', 'Wi-Fi', 'lemari', 'Air', 'Listrik', 'Dapur sharing'],
+      gambar: 'gallery/kamar-isian-baru.jpg',
     },
     // {
     //   nama: 'Kamar Suite',

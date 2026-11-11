@@ -49,8 +49,8 @@
     color: var(--color-forest);
   }
   .btn--ghost:hover {
-    background-color: var(--color-forest);
-    color: var(--color-text-on-dark);
+    background-color: var(--color-ghost-hover);
+    color: var(--color-ghost-hover-text);
     transform: translateY(-2px);
   }
   .btn--sm { padding: 0.55rem 1.25rem; font-size: 0.85rem; }

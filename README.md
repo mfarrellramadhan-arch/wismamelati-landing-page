@@ -78,8 +78,10 @@ cd wismamelati-web-project
 
 Open the project:
 
-* Open `index.html` directly in your browser, **or**
 * Run the project using the **Live Server** extension in Visual Studio Code.
+
+> Gunakan server lokal untuk menjalankan website. Google Maps dapat gagal dimuat
+> jika `index.html` dibuka langsung melalui `file://`.
 
 ---
 

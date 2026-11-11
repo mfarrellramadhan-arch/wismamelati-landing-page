@@ -21,6 +21,8 @@
     --color-text:          #33312A;  /* teks utama, hitam kehangatan */
     --color-text-muted:    #6E6B5E;  /* teks sekunder */
     --color-text-on-dark:  #F5F1E6;  /* teks di atas latar gelap */
+    --color-ghost-hover:  var(--color-forest);
+    --color-ghost-hover-text: var(--color-text-on-dark);
   
     --color-bg:            var(--color-cream);
     --color-bg-alt:        var(--color-cream-soft);
@@ -75,6 +77,9 @@
     --color-text:          #ECE7D8;
     --color-text-muted:    #B6B2A0;
     --color-text-on-dark:  #ECE7D8;
+    --color-text-on-light: #9c9990;
+    --color-ghost-hover:  #3F5B41;
+    --color-ghost-hover-text: #FFFFFF;
   
     --color-bg:            var(--color-cream);
     --color-bg-alt:        var(--color-cream-soft);
