@@ -101,22 +101,22 @@ document.addEventListener('DOMContentLoaded', () => {
   --------------------------------------------------------------- */
   const roomData = [
     {
-      nama: 'Kamar Kosongan',
-      deskripsi: 'Kamar kosongan dengan harga paling terjangkau, kamu bebas customize isi kamarmu !',
-      harga: 300000,
-      satuan: 'bulan',
-      sisa: 3, // jumlah kamar tersisa, gunakan 0 untuk status "Penuh"
-      fasilitas: ['Air', 'Wi-Fi', 'Listrik', "Kamar mandi luar", 'Dapur sharing'],
-      gambar: 'https://picsum.photos/seed/teratakhijau-room-standar/500/380',
+      nama: 'Sewa Tahunan',
+      deskripsi: 'Kamar isian dengan kasur, lemari, meja, dan rak.',
+      harga: 5500000,
+      satuan: 'tahun',
+      sisa: 1, // jumlah kamar tersisa, gunakan 0 untuk status "Penuh"
+      fasilitas: ['Kasur single', 'Meja', 'Wi-Fi', 'lemari', 'Air', 'Listrik', 'Dapur sharing'],
+      gambar: 'gallery/kamar-isian-baru.jpg',
     },
     {
-      nama: 'Kamar Isian',
-      deskripsi: 'Kamar isian dengan posisi menghadap ke teras luar.',
+      nama: 'Sewa Bulanan',
+      deskripsi: 'Kamar isian dengan kasur, lemari, meja, dan rak.',
       harga: 550000,
       satuan: 'bulan',
       sisa: 1,
       fasilitas: ['Kasur single', 'Meja', 'Wi-Fi', 'lemari', 'Air', 'Listrik', 'Dapur sharing'],
-      gambar: 'gallery/kamar-isian-baru.jpg',
+      gambar: 'gallery/foto-kamar-isian.jpg',
     },
     // {
     //   nama: 'Kamar Suite',

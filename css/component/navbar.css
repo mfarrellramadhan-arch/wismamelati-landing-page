@@ -27,7 +27,21 @@
     font-size: 1.25rem;
     color: var(--color-forest);
   }
-  .navbar__logo { font-size: 1.5rem; }
+  .navbar__logo {
+    width: clamp(2.75rem, 3vw, 3.5rem);
+    height: clamp(2.75rem, 3vw, 3.5rem);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+  }
+  .navbar__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
   
   .navbar__toggle {
     display: none;
